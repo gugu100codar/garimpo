@@ -1,0 +1,36 @@
+{
+ "padrao": "classico",
+ "cores": ["#FFD60A", "#39FF14", "#7DD3FC", "#FF4D2E", "#C4B5FD", "#F472B6"],
+ "fontes": {
+  "anton": {"nome": "Anton", "arquivo": "Anton-Regular.ttf",
+            "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/anton/Anton-Regular.ttf"},
+  "bebas": {"nome": "Bebas Neue", "arquivo": "BebasNeue-Regular.ttf",
+            "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bebasneue/BebasNeue-Regular.ttf"},
+  "poppins-semibold": {"nome": "Poppins SemiBold", "arquivo": "Poppins-SemiBold.ttf",
+            "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-SemiBold.ttf"},
+  "archivo-black": {"nome": "Archivo Black", "arquivo": "ArchivoBlack-Regular.ttf",
+            "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/archivoblack/ArchivoBlack-Regular.ttf"},
+  "lilita": {"nome": "Lilita One", "arquivo": "LilitaOne-Regular.ttf",
+            "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lilitaone/LilitaOne-Regular.ttf"},
+  "poppins-extrabold": {"nome": "Poppins ExtraBold", "arquivo": "Poppins-ExtraBold.ttf",
+            "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-ExtraBold.ttf"}
+ },
+ "kits": {
+  "classico": {"nome": "Clássico", "para": "Humor, podcast, geral", "fonte": "anton", "estilo": {}},
+  "neon": {"nome": "Neon", "para": "Games, tech", "fonte": "bebas",
+           "estilo": {"cor_destaque": "#39FF14", "cor_titulo_fundo": "#0B0B0F", "cor_titulo_texto": "#39FF14",
+                      "tamanho_legenda": 92, "tamanho_titulo": 72}},
+  "sobrio": {"nome": "Sóbrio", "para": "Aula, entrevista, negócios", "fonte": "poppins-semibold",
+             "estilo": {"cor_destaque": "#7DD3FC", "cor_titulo_fundo": "#FFFFFF", "cor_titulo_texto": "#111111",
+                        "maiusculas": false, "tamanho_legenda": 64, "tamanho_titulo": 54}},
+  "fogo": {"nome": "Fogo", "para": "Esporte, polêmica, react", "fonte": "archivo-black",
+           "estilo": {"cor_destaque": "#FF4D2E", "cor_titulo_fundo": "#FF4D2E", "cor_titulo_texto": "#FFFFFF",
+                      "tamanho_legenda": 70, "tamanho_titulo": 44}},
+  "suave": {"nome": "Suave", "para": "Lifestyle, bem-estar", "fonte": "lilita",
+            "estilo": {"cor_destaque": "#C4B5FD", "cor_titulo_fundo": "#FFFFFF", "cor_titulo_texto": "#3C3489",
+                       "maiusculas": false, "tamanho_legenda": 74, "tamanho_titulo": 58}},
+  "limpo": {"nome": "Limpo", "para": "Só legenda, sem título", "fonte": "poppins-extrabold",
+            "estilo": {"cor_destaque": "#5EEAD4", "titulo": false, "barra": false,
+                       "maiusculas": false, "tamanho_legenda": 68}}
+ }
+}
